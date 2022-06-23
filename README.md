@@ -4,7 +4,7 @@
 
 1. tmp のパスを作成
 1. tmp にリポジトリ@gh-pagesをclone
-1. clone したリポジトリのファイルを全消し
+1. clone したリポジトリのファイルを全消し git rm -rf .
 1. clone したリポジトリに dist(アップロードしたい対象)内のファイルをコピーする
 1. clone したリポジトリで add .
 1. clone したリポジトリで commit
