@@ -13,6 +13,35 @@
 
 Thanks: https://github.com/tschaub/gh-pages
 
-## 依存
+## Deps
 
 - https://github.com/gitpython-developers/GitPython
+
+## Development
+
+this project use poetry ^1.2
+```shell
+# If you were using version 1.2 or earlier
+poetry self update --preview
+```
+
+setup
+```console
+git clone https://github.landscape.co.jp/LsLibrary/lstextproc.git
+poetry install
+```
+
+activate
+```console
+poetry shell
+```
+
+setup pre-commit
+```console
+poetry run pre-commit install
+```
+
+run tox
+```console
+poetry run tox
+```
