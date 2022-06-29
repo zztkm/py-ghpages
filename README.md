@@ -34,3 +34,8 @@ run tox
 ```console
 poetry run tox
 ```
+
+## Version 関係について
+
+以下issueの内容が解決されるまで動的バージョンつけは停止する
+- https://github.com/tiangolo/poetry-version-plugin/issues/25
