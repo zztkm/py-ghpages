@@ -1,17 +1,21 @@
-# WIP ghpages
+# ghpages
 
-## Upload 手順
+ghpages is a CLI tool for easily publishing static content to GitHub Pages.
 
-1. tmp のパスを作成
-1. tmp にリポジトリ@gh-pagesをclone
-1. clone したリポジトリのファイルを全消し git rm -rf .
-1. clone したリポジトリに dist(アップロードしたい対象)内のファイルをコピーする
-1. clone したリポジトリで add .
-1. clone したリポジトリで commit
-1. clone したリポジトリで push --force
-1. tmp さよなら
+## Install
 
-Thanks: https://github.com/tschaub/gh-pages
+```
+pip install ghpages
+```
+
+## Usage
+
+Publish the contents of the `dist` directory
+```shell
+gh-pages dist
+```
+
+Congratulations! If you see a success message, you are ready to publish on GitHub Pages!
 
 ## Development
 
@@ -35,7 +39,3 @@ run tox
 poetry run tox
 ```
 
-## Version 関係について
-
-以下issueの内容が解決されるまで動的バージョンつけは停止する
-- https://github.com/tiangolo/poetry-version-plugin/issues/25
