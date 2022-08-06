@@ -14,7 +14,7 @@ pip install ghpages
 
 Publish the contents of the `dist` directory
 ```shell
-gh-pages dist
+ghpages dist
 ```
 
 Congratulations! If you see a success message, you are ready to publish on GitHub Pages!
