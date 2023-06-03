@@ -16,6 +16,11 @@ via: pip
 pip install ghpages
 ```
 
+via: [rye](https://rye-up.com/) (Recommended)
+```
+rye install ghpages
+```
+
 ## Usage
 
 Publish the contents of the `dist` directory
